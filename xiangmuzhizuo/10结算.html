@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>收银台</title>
+    <link rel="stylesheet" href="./css/10结算.css">
+    <link rel="stylesheet" href="./css/common.css">
+   
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="img-box">
+                <img src="./imgs/logo_muji_b.png" alt="">
+            </div>
+            <select>
+                <option>上海</option>
+                <option>北京</option>
+                <option>天津</option>
+                <option>河北</option>
+                <option>山西</option>
+                <option>内蒙古</option>
+            </select>
+            <span>用户中心</span>
+            <span>消息中心</span>
+            <span>收藏夹</span>
+            <span>郑重声明</span>
+            <span>帮助</span>
+            <div class="input-box">
+                <input type="text" placeholder="输入商品名或货号">
+                <!-- <span class="iconfont icon-fangdajing"> </span> -->
+            </div>
+            <div class="iconfont icon-gouwuche">
+                <p>购物车</p>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="way">
+            <div class="text">
+                <h3>请选择一下支付方式 !  !  !</h3>
+                <div class="block">
+                    <span><img src="./img/25.jpg"></span><span><img src="./img/26.jpg"></span>
+                </div>
+
+            </div>
+            <button>下一步</button>
+    </section>
+
+    <div class="img">
+        <img src="./img/扫我加我付款.jpg">
+    </div>
+
+
+
+    <div class="tip"></div>
+
+    <footer>
+        <div class="center">
+            <div class="guo">中国</div>
+            <div class="shang">
+                <span>© Ryohin Keikaku Co.,Ltd.</span>
+                <span>© 无印良品(上海) 商业有限公司</span>
+                <span>地址:上海市静安区南京西路1601号35楼3501-3508室</span>
+            </div>
+            <div class="zhong">
+                <span>营业执照</span>
+                <span>食品经营许可证</span>
+                <span>出版物经营许可证新出发沪批字第X67!</span>
+            </div>
+            <div class="xia">
+                <span>沪ICP备08018225号</span>
+                <span>
+                    <img src="./imgs/icon-police.png" alt="">
+                    沪公网安备31010602002779号
+                </span>
+                <span>
+                    <img src="./imgs/license_w.gif" alt="">上海工商
+                </span>
+            </div>
+        </div>
+    </footer>
+ 
+</body>
+
+</html>
+<script src="./jquery-3.2.0.min.js"></script>
+<script src="./jquery.cookie.1.4.1.min.js"></script>
+<script>
+    function show(str) {
+        $(textBox).html(str);
+        $(textBox).css({ "opacity": "1", 'display': 'block' });
+        hasUser = true;
+        setTimeout(function () {
+            $(textBox).css({ "opacity": "0" });
+        }, 2000)
+        setTimeout(function () {
+            $(textBox).css({ 'display': 'block' });
+        }, 2500)
+    }
+</script>
+<script src="./js/10结算.js"></script>

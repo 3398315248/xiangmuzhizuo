@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/04-验证登录.css">
+
+
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header>
+        <div class="center">
+            <div class="img-box">
+                <img src="./imgs/logo_muji_b.png" alt="">
+            </div>
+            <select>
+                <option>上海</option>
+                <option>北京</option>
+                <option>天津</option>
+                <option>河北</option>
+                <option>山西</option>
+                <option>内蒙古</option>
+            </select>
+            <span class="active d">登录/注册</span>
+            <span>消息中心</span>
+            <span>收藏夹</span>
+            <span>郑重声明</span>
+            <span>帮助</span>
+            <div class="input-box">
+                <input type="text" placeholder="输入商品名或货号">
+                <span class="iconfont icon-fangdajing"> </span>
+            </div>
+            <div class="iconfont icon-gouwuche">
+                <p>购物车</p>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="center">
+            <div class="box">
+                <div class="active">验证登录</div>
+                <div class="pass">密码登录</div>
+                <div class="ce">注册</div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="center">
+            <div class="box">
+                <div class="text">
+                    手机号
+                    <input type="text" placeholder="请输入手机号" name="username">
+                </div>
+                <div class="p">
+                    密码 &nbsp;
+                    <input type="password" placeholder="请输入6-20位英文、数字组合密码" name="userpass">
+                </div>
+                <div class="wang"><a href="./06-忘记密码.html">忘记密码？</a></div>
+                <div class="button">
+                    <div class="c">
+                        <input type="button" value="登录">
+                    </div>
+                    <div>
+                        <input type="button" value="返回">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- 底部 -->
+    <footer>
+        <div class="center">
+            <div class="guo">中国</div>
+            <div class="shang">
+                <span>© Ryohin Keikaku Co.,Ltd.</span>
+                <span>© 无印良品(上海) 商业有限公司</span>
+                <span>地址:上海市静安区南京西路1601号35楼3501-3508室</span>
+            </div>
+            <div class="zhong">
+                <span>营业执照</span>
+                <span>食品经营许可证</span>
+                <span>出版物经营许可证新出发沪批字第X67!</span>
+            </div>
+            <div class="xia">
+                <span>沪ICP备08018225号</span>
+                <span>
+                    <img src="./imgs/icon-police.png" alt="">
+                    沪公网安备31010602002779号
+                </span>
+                <span>
+                    <img src="./imgs/license_w.gif" alt="">上海工商
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
+<script src="./jquery-3.2.0.min.js"></script>
+<script src="./jquery.cookie.1.4.1.min.js"></script>
+<script src="./js/04-验证登录.js"></script>
+<script src="./js/common.js"></script>

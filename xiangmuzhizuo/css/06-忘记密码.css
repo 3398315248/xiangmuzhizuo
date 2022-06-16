@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+header .center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .center .img-box {
+  width: 200px;
+  height: 60px;
+  margin-top: 25px;
+}
+
+header .center .img-box img {
+  width: 70%;
+}
+
+header .center span {
+  font-size: 17px;
+  width: 90px;
+  height: 90px;
+  display: block;
+  text-align: center;
+  line-height: 90px;
+}
+
+header .center span.active {
+  border-bottom: 3px solid black;
+  border-radius: 3px;
+}
+
+header .center input {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+header .center .input-box {
+  position: relative;
+  text-align: center;
+  line-height: 30px;
+}
+
+header .center .input-box .fdj {
+  width: 30px;
+  height: 100%;
+  border-left: 1px solid #ccc;
+  font-weight: 700;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  margin-right: 40px;
+  transform: translate(0);
+}
+
+header .center .input-box .fdj .icon-fangdajing {
+  margin-top: -30px;
+}
+
+header .center .input-box .icon-gouwuche {
+  font-size: 25px;
+}
+
+header .center .input-box .icon-gouwuche p {
+  margin-left: 0;
+  font-size: 10px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+section .center {
+  border-bottom: 2px solid #ccc;
+}
+
+section .center .box {
+  width: 500px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .center .box div {
+  width: 180px;
+  height: 100%;
+  font-size: 22px;
+  text-align: center;
+  line-height: 80px;
+}
+
+main {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+main .center .box {
+  margin-top: 20px;
+  font-size: 20px;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+main .center .box input {
+  width: 350px;
+  height: 40px;
+  margin-top: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+main .center .box .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+main .center .box .button input {
+  margin-left: 10px;
+  width: 230px;
+  height: 50px;
+  border: 1px solid black;
+  outline: none;
+  background-color: #fff;
+}
+
+main .center .box .button div:nth-child(1) input {
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+}
+
+footer {
+  height: 200px;
+  background-color: black;
+}
+
+footer .center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+footer .center .guo {
+  width: 50px;
+  height: 85px;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 0;
+}
+
+footer .center div {
+  margin-top: 10px;
+  margin-left: 50px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .center div span {
+  line-height: 50px;
+  color: #999;
+}
+
+header .input-box {
+  height: 90px;
+}
+
+header .input-box input {
+  margin-top: 35px;
+}
+
+section {
+  margin-top: 150px;
+}
+
+.box .n {
+  margin: 0 auto;
+  border-bottom: 3px solid black;
+}
+
+main .a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .a span {
+  margin-top: 40px;
+}
+
+main .a input {
+  margin-left: 40px !important;
+  width: 250px !important;
+}
+
+main .a div {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 3px;
+}
+
+main .box {
+  height: 420px !important;
+}
+
+main .box p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666;
+}

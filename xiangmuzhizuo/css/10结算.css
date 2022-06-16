@@ -1,0 +1,100 @@
+
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+section{
+
+    margin-top: 150px !important;
+    margin-bottom: 100px !important;
+
+}
+section {
+    position: relative;
+    background-color: white;
+    padding: 40px;
+    width: 1000px;
+    height: 300px;
+    margin: 40px auto;
+}
+
+section .time {
+    line-height: 40px;
+    font-size: 20px;
+    background-color: rgb(244, 244, 244);
+    padding: 0 20px;
+
+}
+section .way .text p{ 
+    text-align: center;
+}
+section .time span {
+    color: rgb(141, 2, 2);
+}
+
+section .money {
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+section .money span {
+    line-height: 50px;
+    font-size: 30px;
+    color: rgb(141, 2, 2);
+}
+.way .block{
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.way .block span{
+    width: 190px;
+    height: 50px;
+    border: 2px solid #ccc;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.way .block span img{
+    width: 100%;
+} 
+.way .block span.active{
+    border:1px solid rgb(141, 2, 2);
+}
+
+button{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+    background-color: rgb(141, 2, 2);
+    right: 35px;
+    bottom: 35px;
+    color: white;
+}
+
+span,button{
+    cursor: pointer;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204, 204, 204, 0.396);
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);  
+    opacity: 0
+}
+.img img{
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

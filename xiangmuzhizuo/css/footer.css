@@ -1,0 +1,37 @@
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+}
+
+footer .center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer .center .guo {
+    width: 50px;
+    height: 85px;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+footer .center div {
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .center div span {
+    line-height: 50px;
+    color: #999;
+}
